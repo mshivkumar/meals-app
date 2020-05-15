@@ -18,6 +18,7 @@ class HomePage extends StatelessWidget {
         padding: const EdgeInsets.all(25),
         children: DUMMY_CATEGORIES
             .map((catData) => CategoryItem(
+                  id: catData.id,
                   title: catData.title,
                   color: catData.color,
                 ))
